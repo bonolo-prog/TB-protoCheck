@@ -1,0 +1,23 @@
+id,question,answerable,expected_sources,expected_numbers,note
+1,What is the minimum sputum volume for a good specimen?,yes,TBLAB-001#2,1,
+2,At what temperature should specimens be kept during transport?,yes,TBLAB-001#4,2;8,
+3,How long can specimens for the rapid molecular test be stored before testing?,yes,TBLAB-001#5,10,
+4,Can specimens for the rapid molecular test be frozen?,yes,TBLAB-001#5,,Answer is no
+5,When should a specimen be rejected?,yes,TBLAB-001#6,1,List-style answer
+6,What gene region does the rapid molecular test analyse for rifampicin resistance?,yes,TBLAB-002#1,81,
+7,What ratio of sample reagent to sputum is used?,yes,TBLAB-002#3,2;1,
+8,How long is the treated sample incubated before loading?,yes,TBLAB-002#3,15,
+9,What does an INVALID result mean?,yes,TBLAB-002#4,,Answer is in a table
+10,Why is rifampicin resistance indeterminate for a TRACE result?,yes,TBLAB-002#5,,
+11,What should be done after an ERROR result?,yes,TBLAB-002#6,,
+12,Can the rapid molecular test detect the rpoB I491F mutation?,yes,TBLAB-002#7,,Answer is no - outside the RRDR
+13,Can the rapid molecular test be used to monitor treatment response?,yes,TBLAB-002#7,,Answer is no
+14,Which genes are sequenced to detect bedaquiline resistance?,yes,TBLAB-003#2,,Answer is in a table (rv0678 and atpE)
+15,Are TRACE specimens accepted for targeted sequencing?,yes,TBLAB-003#3,,Answer is no
+16,How many PCR cycles are used for target amplification in targeted sequencing?,yes,TBLAB-003#4,40,
+17,What happens if the negative control shows amplification?,yes,TBLAB-003#4,,
+18,What minimum read depth is required for sequencing QC?,yes,TBLAB-003#6,100,
+19,How is heteroresistance defined in the report?,yes,TBLAB-003#7,10;90,
+20,What treatment regimen should a patient with MDR-TB receive?,no,,,Clinical decision - outside scope; the model must refuse
+21,How long does the rapid molecular test take to give a result?,no,,,Not in the documents - the model should refuse
+22,What read depth is required for whole-genome sequencing?,no,,,Trap: the SOP covers targeted sequencing only - should not reuse the 100X value
